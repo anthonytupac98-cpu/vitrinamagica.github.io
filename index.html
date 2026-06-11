@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo Vitrina Mágica</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="portada">
+    <img src="img/logo.png" alt="Vitrina Mágica" class="logo-principal">
+  </header>
+
+  <main>
+
+    <section id="inicio" class="inicio">
+      <h2>Elige una categoría</h2>
+
+      <div class="categorias-inicio">
+        <button onclick="abrirCategoria('Maquillaje')">
+          💄 Maquillaje
+        </button>
+
+        <button onclick="abrirCategoria('Perfumería')">
+          🌸 Perfumería
+        </button>
+
+        <button onclick="abrirCategoria('Accesorios')">
+          👜 Accesorios
+        </button>
+      </div>
+    </section>
+
+    <section id="seccion-productos" class="seccion-productos oculto">
+
+      <button class="volver" onclick="volverInicio()">
+        ← Volver a categorías
+      </button>
+
+      <h2 id="titulo-categoria"></h2>
+
+      <div id="catalogo" class="catalogo"></div>
+
+    </section>
+
+  </main>
+
+  <footer class="contacto">
+
+    <div class="direccion">
+      Dirección: Jirón Arica 655 San Jerónimo de Tunán - Segundo Piso
+    </div>
+
+    <div class="whatsapp">
+      <img src="img/wsp.png" alt="WhatsApp">
+      <span>Pedidos: 990222278</span>
+    </div>
+
+  </footer>
+
+<div id="modal" class="modal" onclick="cerrarModalFondo(event)">
+
+  <div class="modal-contenido">
+
+    <button onclick="cerrarModal()" class="cerrar">
+      ← Volver
+    </button>
+
+    <div class="modal-imagen">
+      <img id="modal-img" src="" alt="Producto">
+    </div>
+
+    <div class="modal-info">
+
+      <div class="modal-logo">
+        <img src="img/logo.png" alt="Vitrina Mágica">
+      </div>
+
+      <div class="modal-datos">
+        <h2 id="modal-nombre"></h2>
+        <p id="modal-marca"></p>
+        <p id="modal-precio"></p>
+      </div>
+
+      <div class="modal-pedidos">
+        <img src="img/wsp.png" alt="WhatsApp">
+        <span>Pedidos: 990222278</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
