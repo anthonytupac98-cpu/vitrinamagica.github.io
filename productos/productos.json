@@ -1,0 +1,198 @@
+[
+  {
+    "nombre": "Rimel para pestañas",
+    "categoria": "Maquillaje",
+    "marca":"Jarusa",
+    "precio": "8.00",
+    "imagen": "img/rimel.png"
+  },
+  {
+    "nombre": "Lip Balm Polá Aylr",
+    "categoria": "Maquillaje",
+    "marca":"Jarusa",
+    "precio": "4.00",
+    "imagen": "img/lip_balm.png"
+  },
+  {
+    "nombre": "Mascarilla Hidratante",
+    "categoria": "Maquillaje",
+    "marca":"Jarusa",
+    "precio": "3.70",
+    "imagen": "img/mascarilla.png"
+  },
+  {
+    "nombre": "Órale BB Cream",
+    "categoria": "Maquillaje",
+    "marca":"Jarusa",
+    "precio": "10.00",
+    "imagen": "img/bb_cream.png"
+  },
+  {
+    "nombre": "Toallitas Desmaquillantes",
+    "categoria": "Maquillaje",
+    "marca":"Madison",
+    "precio": "2.50",
+    "imagen": "img/toallitas.png"
+  },
+  {
+    "nombre": "Paleta de Maquillaje 5 en 1",
+    "categoria": "Maquillaje",
+    "marca":"Revel Professional",
+    "precio": "35.00",
+    "imagen": "img/paleta.png"
+  },
+  {
+    "nombre": "Lima para uñas",
+    "categoria": "Maquillaje",
+    "marca":"Jarusa",
+    "precio": "2.50",
+    "imagen": "img/lima.png"
+  },
+  {
+    "nombre": "Pegamento de Pestañas Jarusa",
+    "categoria": "Maquillaje",
+    "marca":"Jarusa",
+    "precio": "4.50",
+    "imagen": "img/pegamento_pestañas.png"
+  },
+  {
+    "nombre": "Cepillo con espejo",
+    "categoria": "Accesorios",
+    "marca":"Bijou",
+    "precio": "5.50",
+    "imagen": "img/cepillo_espejo.png"
+  },
+  {
+    "nombre": "Perfume para Varón BIG BOSS",
+    "categoria": "Perfumería",
+    "marca":"BELLESPA Perfumes",
+    "precio": "20.00",
+    "imagen": "img/big_boss.png"
+  },
+  {
+    "nombre": "Antifaz para Dormir",
+    "categoria": "Accesorios",
+    "marca":"Revel Professional",
+    "precio": "5.50",
+    "imagen": "img/antifaz.png"
+  },
+  {
+    "nombre": "Pestañas",
+    "categoria": "Maquillaje",
+    "marca":"Revel Professional",
+    "precio": "4.00",
+    "imagen": "img/pestañas_revel.png"
+  },
+  {
+    "nombre": "Perfume para Varón BRAVE AZUL",
+    "categoria": "Perfumería",
+    "marca":"BELLESPA Perfumes",
+    "precio": "25.00",
+    "imagen": "img/brave_azul.png"
+  },
+  {
+    "nombre": "Removedor de Esmalte",
+    "categoria": "Maquillaje",
+    "marca":"Revel Professional",
+    "precio": "5.50",
+    "imagen": "img/removedor_esmalte.png"
+  },
+  {
+    "nombre": "Perfilador de Cejas",
+    "categoria": "Accesorios",
+    "marca":"Revel Professional",
+    "precio": "2.50",
+    "imagen": "img/perfilador.png"
+  },
+  {
+    "nombre": "Perfume para Mujer LUXE CHERRY",
+    "categoria": "Perfumería",
+    "marca":"BELLESPA Perfumes",
+    "precio": "20.00",
+    "imagen": "img/luxe_cherry.png"
+  },
+  {
+    "nombre": "Corrector Sunny Day",
+    "categoria": "Maquillaje",
+    "marca":"Revel Professional",
+    "precio": "10.00",
+    "imagen": "img/corrector_sunny.png"
+  },
+  {
+    "nombre": "Perfume para Mujer LUMINOSA POUR FEMME",
+    "categoria": "Perfumería",
+    "marca":"BELLESPA Perfumes",
+    "precio": "20.00",
+    "imagen": "img/luminosa.png"
+  },
+  {
+    "nombre": "Rosita Polvos Sueltos Jarusa",
+    "categoria": "Maquillaje",
+    "marca":"Jarusa",
+    "precio": "16.00",
+    "imagen": "img/rosita_polvos.png"
+  },
+  {
+    "nombre": "Triple Glam",
+    "categoria": "Maquillaje",
+    "marca":"Jarusa",
+    "precio": "20.00",
+    "imagen": "img/triple_glam.png"
+  },
+  {
+    "nombre": "Rizador de Pestañas",
+    "categoria": "Accesorios",
+    "marca":"Revel Professional",
+    "precio": "5.50",
+    "imagen": "img/rizador.png"
+  },
+  {
+    "nombre": "Paleta Práctica y Funcional",
+    "categoria": "Maquillaje",
+    "marca":"Revel Professional",
+    "precio": "12.50",
+    "imagen": "img/paleta_practica.png"
+  },
+  {
+    "nombre": "Mirror Lip Glaze",
+    "categoria": "Maquillaje",
+    "marca":"Revel Professional",
+    "precio": "6.00",
+    "imagen": "img/mirror_lip.png"
+  },
+  {
+    "nombre": "Corrector y Contorno Matte 2 en 1",
+    "categoria": "Maquillaje",
+    "marca":"BELLESPA",
+    "precio": "10.50",
+    "imagen": "img/corrector_contorno.png"
+  },
+  {
+    "nombre": "Delineador Líquido",
+    "categoria": "Maquillaje",
+    "marca":"Jarusa",
+    "precio": "5.50",
+    "imagen": "img/delineador.png"
+  },
+  {
+    "nombre": "Fijador de Maquillaje Fix+ Matte Finish",
+    "categoria": "Maquillaje",
+    "marca":"Revel Professional",
+    "precio": "10.00",
+    "imagen": "img/fijador_maquillaje.png"
+  },
+  {
+    "nombre": "Labiales Efecto Mate",
+    "categoria": "Maquillaje",
+    "marca":"Jarusa",
+    "precio": "5.50",
+    "imagen": "img/labiales_mate.png"
+  },
+  {
+    "nombre": "Macarilla de Carbón Activado",
+    "categoria": "Maquillaje",
+    "marca":"Jarusa",
+    "precio": "3.50",
+    "imagen": "img/mascarilla_carbon.png"
+  }
+]

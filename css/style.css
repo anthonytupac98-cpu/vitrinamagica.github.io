@@ -1,0 +1,424 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7eef3;
+  color: #333;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* PORTADA */
+
+.portada {
+  background: #a94f7d;
+  height: 220px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.logo-principal {
+  max-height: 180px;
+  max-width: 90%;
+  object-fit: contain;
+}
+
+/* INICIO */
+
+.oculto {
+  display: none;
+}
+
+.inicio {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.inicio h2 {
+  margin-bottom: 20px;
+}
+
+.categorias-inicio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.categorias-inicio button {
+  background: white;
+  border: none;
+  border-radius: 18px;
+
+  padding: 25px 15px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  color: #a94f7d;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.categorias-inicio button:hover {
+  transform: translateY(-3px);
+}
+
+/* PRODUCTOS */
+
+.seccion-productos {
+  padding: 20px;
+}
+
+.volver {
+  background: #a94f7d;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.volver:hover {
+  background: #8f3f68;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.producto {
+  background: white;
+  border-radius: 18px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.producto img {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.producto h3 {
+  min-height: 60px;
+  font-size: 20px;
+  line-height: 1.25;
+  margin: 12px 0;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.marca {
+  color: #a94f7d;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -8px;
+  margin-bottom: 12px;
+}
+
+.precio {
+  font-size: 24px;
+  color: #a94f7d;
+  font-weight: bold;
+}
+
+.btn-detalle {
+  background: #a94f7d;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-detalle:hover {
+  background: #8f3f68;
+}
+
+/* CONTACTO */
+
+.contacto {
+  background: #a94f7d;
+  color: white;
+
+  min-height: 90px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 30px;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.direccion {
+  flex: 1;
+}
+
+.whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.whatsapp img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+/* MODAL */
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.88);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 15px;
+}
+
+.modal-contenido {
+  width: 96vw;
+  height: 92vh;
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.modal-imagen {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.modal-imagen img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.modal-info {
+  display: grid;
+  grid-template-rows: 140px minmax(0, 1fr) 85px;
+  background: white;
+  min-height: 0;
+}
+
+.modal-logo {
+  background: #a94f7d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-logo img {
+  max-height: 110px;
+  max-width: 85%;
+  object-fit: contain;
+}
+
+.modal-datos {
+  padding: 45px 60px;
+  overflow-y: auto;
+}
+
+.modal-datos h2 {
+  font-size: 34px;
+  margin: 0 0 35px;
+  color: #222;
+}
+
+#modal-marca {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 22px 0;
+  color: #000;
+}
+
+#modal-precio {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 22px 0;
+  color: #a94f7d;
+}
+
+.modal-pedidos {
+  background: #a94f7d;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.modal-pedidos img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.cerrar {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+
+  background: white;
+  color: #333;
+
+  border: none;
+  border-radius: 20px;
+  padding: 8px 14px;
+
+  font-size: 13px;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 2000;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.cerrar:hover {
+  background: #f2f2f2;
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+  .portada {
+    height: 170px;
+  }
+
+  .logo-principal {
+    max-height: 130px;
+  }
+
+  .catalogo {
+    grid-template-columns: 1fr;
+  }
+
+  .producto img {
+    height: 340px;
+  }
+
+  .contacto {
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    gap: 8px;
+  }
+
+  .whatsapp img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .modal {
+    padding: 0;
+  }
+
+  .modal-contenido {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 55vh 45vh;
+  }
+
+  .modal-imagen {
+    padding: 8px;
+  }
+
+  .modal-info {
+    grid-template-rows: 75px 1fr 60px;
+  }
+
+  .modal-logo img {
+    max-height: 60px;
+  }
+
+  .modal-datos {
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  .modal-datos h2 {
+    font-size: 22px;
+    margin: 0 0 10px;
+  }
+
+  #modal-marca {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+
+  #modal-precio {
+    font-size: 22px;
+    margin: 8px 0;
+  }
+
+  .modal-pedidos {
+    font-size: 17px;
+  }
+
+  .modal-pedidos img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .cerrar {
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    padding: 7px 11px;
+  }
+}
